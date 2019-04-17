@@ -18,7 +18,6 @@ const routes: Routes = [
   { path: 'class-reservation', 
     loadChildren: './core/pages/class-reservation/class.reservation.module#ClassReservationPageModule' 
 }
-
 ];
 
 @NgModule({
